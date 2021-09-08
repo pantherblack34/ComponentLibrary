@@ -14,7 +14,8 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    align-text: center;
+    width: 600px;
     margin: auto;
 }
 
@@ -118,7 +119,8 @@ hr {
     text-align: center;
     font-weight: bolder;
     font-size: small;
-    color: var(--off-white);
+    color: black;
+    border-radius: 3rem 3rem;
 }
 
 .list-inlinef {
