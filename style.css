@@ -1,7 +1,7 @@
 :root {
-    --primary-color: rgb(112, 40, 230);
-    --dark-gray: rgb(76, 81, 97);
-    --off-white: rgb(83, 91, 94);
+    --primary-color: #4F46E5;
+    --dark-gray: #818CF8;
+    --off-white: #C7D2FE;
 }
 
 body {
@@ -106,6 +106,24 @@ hr {
     text-align: center;
 }
 
-.section .off{
+.off{
     background-color: var(--off-white);
 }
+
+/*footer*/
+
+.leg{
+    text-align: center;
+    font-weight: bolder;
+    font-size: small;
+    color: var(--dark-gray);
+}
+
+.list-inlinef{
+    padding: 1rem 2rem;
+    display: inline;
+    width: 30px;
+    height: auto;
+}
+
+
