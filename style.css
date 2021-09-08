@@ -99,31 +99,29 @@ hr {
 }
 
 /*section*/
-.section{
+.section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
 }
 
-.off{
+.off {
     background-color: var(--off-white);
 }
 
 /*footer*/
 
-.leg{
+.leg {
+    background-color: var(--dark-gray);
     text-align: center;
     font-weight: bolder;
     font-size: small;
-    color: var(--dark-gray);
+    color: var(--off-white);
 }
 
-.list-inlinef{
+.list-inlinef {
     padding: 1rem 2rem;
     display: inline;
-    width: 30px;
-    height: auto;
 }
-
-
